@@ -1,0 +1,130 @@
+/* 
+Theme Name: Hello Elementor Child
+Theme URI: https://github.com/elementor/hello-theme-child/
+Description: Hello Elementor Child is a child theme of Hello Elementor, created by Elementor team
+Author: Elementor Team
+Author URI: https://elementor.com/
+Template: hello-elementor
+Version: 2.0.0
+Text Domain: hello-elementor-child
+License: GNU General Public License v3 or later.
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
+*/
+
+/* Add your custom styles here */
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #e7e4e9;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+input.error, select.error {
+    border-color: red;
+}
+
+#registro-punto-venta input, #registro-punto-venta select {
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+
+.registro-heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.registro-heading span {
+    background: #44166e;
+    color: #FFF;
+    padding: 5px;
+    border-radius: 50px;
+    width: 30px;
+}
+
+.registro-heading p {
+    margin-bottom: 0;
+}
+
+.container-checkbox {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 10px;
+}
+
+.button-form {
+    color: #FFF;
+    background: #44166e;
+    border: none;
+}
+
+#mensaje-gracias {
+    color: #FFF;
+}
+
+.reto-detalle {
+    max-width: 1140px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.container-description {
+    margin-top: 30px;
+}
+
+.effect-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+}
+
+.service-button {
+    display: inline-block;
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 1rem;
+    color: #FFF;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.service-button.grow {
+    background-color: #44166e;
+}
+
+.service-button.grow:hover {
+    transform: scale(1.1);
+    color: #FFF;
+}
+
+@media(min-width: 768px) {
+    .container-reto {
+        display: flex;
+    }
+
+    .container-reto__info {
+        width: 50%;
+    }
+
+    .container-description {
+        display: flex;
+        gap: 50px;
+    }
+}
