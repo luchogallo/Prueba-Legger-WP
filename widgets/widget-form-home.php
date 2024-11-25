@@ -7,12 +7,20 @@
             <p>Inscripción punto de venta</p>
         </div>
 
-        <input type="text" name="nombre_cliente" required pattern="^[A-Za-zÁÉÍÓÚÑáéíóúñ\s]+$" placeholder="Nombre del cliente">
-        <input type="text" name="nit" required pattern="^[0-9]+$" placeholder="NIT">
-        <input type="text" name="nombre_punto" placeholder="Nombre del punto">
-        <input type="text" name="nombre_equipo" placeholder="Nombre del equipo">
+        <div class="container-input">
+            <input type="text" id="nombre_cliente" name="nombre_cliente" pattern="^[A-Za-zÁÉÍÓÚÑáéíóúñ\s]+$" placeholder="Nombre del cliente">
+        </div>
+        <div class="container-input">
+            <input type="text" id="nit" name="nit" pattern="^[0-9]+$" placeholder="NIT">
+        </div>
+        <div class="container-input">
+            <input type="text" id="nombre_punto" name="nombre_punto" placeholder="Nombre del punto">
+        </div>
+        <div class="container-input">
+            <input type="text" id="nombre_equipo" name="nombre_equipo" placeholder="Nombre del equipo">
+        </div>
 
-        <select name="ciudad" required>
+        <select name="ciudad">
             <option value="">Ciudad</option>
             <option value="Bogotá">Bogotá</option>
             <option value="Medellín">Medellín</option>

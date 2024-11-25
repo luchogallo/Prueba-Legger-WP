@@ -35,6 +35,13 @@ input.error, select.error {
     border-color: red;
 }
 
+.custom-alert {
+    background: red;
+    color: #FFF;
+    padding: 5px;
+    text-align: center;
+}
+
 #registro-punto-venta input, #registro-punto-venta select {
     border-radius: 10px;
     border: 1px solid transparent;
